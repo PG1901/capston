@@ -1,6 +1,9 @@
 body{
 	background-color: #e6e6e6;
 }
+img {width:100%;}
+.car-image-block {padding:0px;margin:0px;}
+.car-image-block img {min-height: 200px; overflow: hidden;}
 /* 전체 스타일 정의*/
 @import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
 * {
