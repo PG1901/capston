@@ -1,13 +1,10 @@
-body{
-	background-color: #e6e6e6;
-}
 /* 전체 스타일 정의*/
 @import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
 * {
 	font-family: 'Nanum Gothic';
 }
 * {
-	color: #000000;
+	color: #ffffff;
 	text-decoration: none;
 }
 * :hover {
@@ -15,55 +12,17 @@ body{
 	text-decoration: none;
 	cursor: pointer;
 }
-.box1{
-	height: 37%; 
-	width: 78%;
-	border-radius: 15px;
-  	border:2px solid black;
-	margin: 0 auto;
-	margin-bottom: 1%;
-	background-color:;
-}
-.profile{
-  width: 80%;
-  height: 80%;
-  margin-top: 2%;
-  margin-left: 2%;
-}
-.profileIMG{
-  width: 30%;
-  height: 100%;
-  border-radius: 70%;
-  object-fit: cover;
-}
-.box2{
-	height: 50%; 
-	width: 68%;
-	border-radius: 15px;
-  	border:2px solid black;
-	margin: 0 auto;
-	margin-bottom: 1%;
-	border-color:#d3d3d3;
-}
 /*네비게이션 영역*/
 /*배경색상*/
 .navbar-default{
-	z-index : 4;
-	background-color: white;
-	border-color: white;
+	background-color: #000000;
+	border-color: #000000;
 }
 
-/*네비게이션 대문 글자*/
+/*네비게이션 제목 글자색*/
 .navbar-default .navbar-brand{
-	color: #000000;
-	font-family: 'Dancing Script', cursive;	
-	font-size: 40px;
-}
-/*네비게이션 목록 글자*/
-.tf1{
-	color: #000000;
-	font-family: 'Dancing Script', cursive;	
-	font-size: 20px;
+	color: #ffffff;
+	font-size: 30px;
 } 
 /*네비게이션 제목에 마우스를 올렸을 때*/
 .navbar-default .navbar-brand:hover,
@@ -75,8 +34,8 @@ body{
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus{
-	background-color: #ffffff;
-	color: #000000;
+	color: #ffffff;
+	background-color: #000000;
 }
 /*네비게이션 글자에 마우스를 올렸을 떄*/
 .navbar-default .navbar-nav > li > a:hover,
@@ -87,25 +46,30 @@ body{
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus{
-	background-color: #e3e3e3; 
-	color: #000000; 
+	color: #000000;
+	background-color: #ffffff; 
 	text-decoration: none;
 }
 /*네비게이션 기본 색상*/
 .navbar-default .navbar-nav > li > a {
-	background-color: #ffffff;
-	color: #000000;
+	color: white;
 }
 /**/
 @media (max-width: 767px){/*해상도의 가로 크기가 767px 보다 작을때*/
 	.navbar-default .navbar-nav .open .dropdown-menu>li > a{
-		color: #000000;
+		color: #ffffff;
 	}
 	.navbar-default .navbar-nav .open .dropdown-menu>li > a:hover,
 	.navbar-default .navbar-nav .open .dropdown-menu>li > a{
-		color: #000000;
+		color: #bbbbbb;
 	}
 }
-.navbar-collapse{
-	background-color: white;
+.jumbotron{
+	/*로그인*/
+	background-image: url('C:/Users/cksdl/OneDrive/바탕 화면/캡스톤디자인/images/img.jpg');
+	background-position: 0% 100%;
+	background-size: 100% 100%;
+	text-shadow: black 0.2em 0.2em 0.2em;
+	color: #ffffff;
+
 }

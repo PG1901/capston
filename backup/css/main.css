@@ -1,6 +1,3 @@
-body{
-	background-color: #e6e6e6;
-}
 /* 전체 스타일 정의*/
 @import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
 * {
@@ -48,9 +45,10 @@ body{
 /*네비게이션 영역*/
 /*배경색상*/
 .navbar-default{
-	z-index : 4;
-	background-color: white;
-	border-color: white;
+	z-index : 1;
+	margin-top: 1%;
+	background-color: #ffffff;
+	border-color: #ffffff;
 }
 
 /*네비게이션 대문 글자*/
@@ -106,6 +104,12 @@ body{
 		color: #000000;
 	}
 }
-.navbar-collapse{
-	background-color: white;
+.jumbotron{
+	/*로그인*/
+	background-image: url('C:/Users/cksdl/OneDrive/바탕 화면/캡스톤디자인/images/img.jpg');
+	background-position: 0% 100%;
+	background-size: 100% 100%;
+	text-shadow: black 0.2em 0.2em 0.2em;
+	color: #000000;
+
 }

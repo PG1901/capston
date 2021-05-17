@@ -1,0 +1,193 @@
+<!DOCTPYE html>
+<style>
+ul{
+   list-style:none;
+   }
+</style>
+<html>
+	<head>
+		<meta chatset="UTF=8">
+		<meta name="viewport" content="width=device-width", initial-scale="1">
+		<title>프로필</title>
+		<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+
+		<link rel = "stylesheet" href="css/bootstrap.css">
+		<link rel = "stylesheet" href="js/bootstrap.js">
+		
+		<link rel = "stylesheet" href="css/main.css">
+		<link rel = "stylesheet" href="button.css">
+		<link rel = "stylesheet" href="jquery-ui.css">
+		
+		<link rel = "stylesheet" href="css/profile.css">
+		<link rel = "stylesheet" href="js/profile.js">
+	</head>
+	<body>
+		<nav class="navbar navbar-default"style="height: 5%; width:100%">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="nav navbar-toggle collaps" data-toggle="collapse"
+						data-target="#bs-example-navbar-collapse-1"aria-expanded="false">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+					</button>
+					<a class = "navbar-brand" href = "//main.html#">TID</a>
+				</div>
+
+				<div class = "collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class = "nav navbar-nav">
+						<li><a href="#">Profile</a></li>
+						<li class = "dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+								aria-hapopyp="true" aria-expanded="false">Hot<span class="caret"></span></a>
+							<ul class = "dropdown-menu">
+								<li><a = href="//hot.html#">인기글</a></li>
+								<li><a = href="//new.html#">최신글</a></li>
+							</ul>
+						</li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="//Login2.html#">Login</a></li>
+					</ul>
+					<form class="navbar-form navbar-right">
+						<form action="" class="search-form">
+			                <div class="form-group has-feedback">
+			            		<label for="search" class="sr-only">Search</label>
+			            		<input type="text" class="form-control" name="search" id="search" placeholder="search">
+			              		<span class="glyphicon glyphicon-search form-control-feedback"style="color: #000000"></span>
+			            	</div>
+           			 	</form>
+					</form>
+				</div>
+			</div>
+		</nav>
+		<div class="container"style="width:80%; display: flex;justify-content: center;">
+		    <div class="row" style="width:80%;display: flex;justify-content: center;">
+		        <div class="col-12 col-sm-12 col-md-12" >
+		            <div class="well well-sm">
+		                <div class="row">
+		                	<!--프로필 사진 -->
+		                    <div class="col-xs-12 col-sm-4 col-md-4 " style="  display: flex;justify-content: center;">
+		                        <img src="images/2.jpg" alt="" class="img-rounded img-responsive" style="height: 25%">
+		                    </div>
+							<!--프로필1 -->
+		                    <div class="col-xs-12 col-sm-4 col-md-8">
+		                        <h4 class="col-xs-12">이름</h4>
+		                        <small class="col-xs-12">
+		                        	<cite title="San Francisco, USA">거주지, 부산
+		                        		<i class="glyphicon glyphicon-map-marker">
+		                        		</i>
+		                    		</cite>
+		                    	</small>
+		                        <p class="col-xs-6 col-md-4">
+		                            <i class="glyphicon glyphicon-envelope"></i> email
+		                            <br />
+		                            <i class="glyphicon glyphicon-globe"></i>
+		                            <a href="http://www.jquery2dotnet.com"> 개인 주소</a>
+		                            <br />
+		                            <i class="glyphicon glyphicon-gift"></i> 생일 7, 25, 1996
+		                            <br />
+		                            <i class="glyphicon glyphicon-heart"></i> 팔로우 826
+		                            
+		                        </p>
+		                        <p class="col-xs-6 col-sm-4 col-md-4">
+		                            	개인 글?
+		                        </p>
+		                        <button>
+		                        	수정하기
+		                        </button>
+		                    </div>
+		                </div>
+		            </div>
+		        </div>
+		    </div>
+		</div>
+
+		<div class="container"style="width:80%; display: flex;justify-content: center;">
+		    <div class="row" style="width:80%;display: flex;justify-content: center;">
+		        <div class="col-12 col-sm-12 col-md-12" >
+		        	<div class= "post"style="background-color: red">
+		        		잔디
+		        	</div>
+		        </div>
+		    </div>
+		</div>
+
+		<div class="container" style="background-color:; width:78% ">
+		    <div class="col-12 col-sm-12 col-md-12" style="display: flex; justify-content: center;">
+		       	<div class= "post"style="background-color:#f9f9f9">
+		        		<div class="col-md-8  col-sm-8 col-xs-4" style="margin-top: 1%">
+		        			내가쓴 게시글
+		        		</div>
+						<div class="col-md-4  col-sm-4 col-xs-8" style="margin-top: 1%">
+						    <form action="#" method="get">
+						        <div class="input-group">
+						            <input class="form-control" id="system-search" name="q" placeholder="Search for" style="height: 30px;" required >
+						                <span class="input-group-btn">
+						                	<button type="submit" class="btn btn-default">
+						                		<i class="glyphicon glyphicon-search"  style="height: 15px;"></i>
+						                	</button>
+						                </span>
+						        </div>
+						    </form>
+						</div>
+
+						<div class="col-md-12 col-sm-12 col-xs-12">    
+							<table class="table table-list-search">
+			                    <thead>
+			                        <tr>
+			                            <th style="width: 15%; text-align: center;">게시글번호</th>
+			                            <th style="width: 40%; text-align: center;">제목</th>
+			                            <th style="width: 10%; text-align: center;">작성일</th>
+			                            <th style="width: 10%; text-align: center;">좋아요</th>
+			                            <th style="width: 10%; text-align: center;">조회수</th>
+			                        </tr>
+			                    </thead>
+			                    <tbody>
+			                        <tr>
+			                            <td>Test1</td>
+			                            <td>Test2</td>
+			                            <td>Test3</td>
+			                            <td>Test4</td>
+			                            <td>Test5</td>
+			                        </tr>
+			                        <tr>
+			                            <td>1</td>
+			                            <td>게시글</td>
+			                            <td>21.05.17</td>
+			                            <td>1</td>
+			                            <td>3</td>
+			                        </tr>
+
+			                    </tbody>
+			                </table>
+			                <div style="display: flex; justify-content: center; margin-bottom: 1%">
+			                	<a href="#"><  </a>
+				                <a href="#">1,</a>
+				                <a href="#">2,</a>
+				                <a href="#">3,</a>
+				                <a href="#">4,</a>
+				                <a href="#">5</a>
+				                <a href="#">  ></a>
+				            </div>  
+		        		</div>
+		        	</div>
+		        </div>
+			</div>
+			<div class="content" style="width: 100%">
+				<div>
+					<footer style="background-color: #000000">
+						<div class="row">
+							<br>
+							<div class="col-sm-2" style="text-align: center; color: white">
+								<h5>Cipyright &copy; 2021 Test</h5>
+								<h5> </h5>
+						</div>
+					</footer>
+				</div>
+			</div>
+		<script src ="https:code.jquery.com/jquery-3.1.1.min.js"></script>
+		<script src ="js/bootstrap.js"></script>
+	</body>
+</html>
