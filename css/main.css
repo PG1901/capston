@@ -112,3 +112,13 @@ img {width:100%;}
 .navbar-collapse{
 	background-color: white;
 }
+/*댓글*/
+.title {
+    font-size: 14px;
+    font-weight:bold;
+    text-align:left;
+}
+.comments {
+    font-size:14px;
+    text-align:left;
+}
